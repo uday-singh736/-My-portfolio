@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: rgb(248, 249, 252);
+  color: rgb(51, 51, 51);
+  scroll-behavior: smooth;
+}
+header {
+  background: linear-gradient(135deg, rgb(108, 99, 255), rgb(90, 185, 234));
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid white;
+}
+.name {
+  color: rgb(255, 228, 92);
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: rgb(255, 228, 92);
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: white;
+}
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: rgb(90, 90, 230);
+  margin-bottom: 20px;
+  text-align: center;
+}
+p {
+  line-height: 1.7;
+  text-align:center;
+}
+.education, .skill-list {
+  margin: 20px 0;
+}
+.skill-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-list li {
+  background-color: rgb(232, 234, 246);
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.project {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.project img {
+  width: 180px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.project div h3 {
+  color: rgb(108, 99, 255);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+.social-links img {
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.social-links a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  transition: 0.3s;
+}
+.social-links a:hover {
+  color: rgb(90, 90, 230);
+}
+.email {
+  text-align: center;
+}
+.email a {
+  text-decoration: none;
+  color: rgb(17, 102, 175);
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(108, 99, 255);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+}
